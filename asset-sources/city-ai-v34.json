@@ -1,0 +1,13 @@
+{
+  "generator": "built-in image_gen",
+  "source": "local-generated-image (original private path omitted)",
+  "asset": "public/textures/city-ai-v34/leaf-spray.png",
+  "sha256": "b0df1b51e15a73d9599512118e26b4ff71ec5eab8fe70365af2f1981843341d3",
+  "size": [
+    1254,
+    1254
+  ],
+  "alpha": true,
+  "usage": "Ordinary ward and district street tree foliage; generated color/alpha, not measured PBR.",
+  "promptSummary": "Photorealistic elm-like leafy twig spray, approximately 20 serrated green leaves on thin brown stems, isolated on genuinely transparent alpha background; neutral diffuse light, photographic veins and natural imperfections, no cast shadow or matte. Square foliage sprite for 3D leaf cards."
+}

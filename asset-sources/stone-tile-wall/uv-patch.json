@@ -1,0 +1,47 @@
+{
+  "image_resolution": [
+    2048,
+    2048
+  ],
+  "image_pixel_bounds_top_left": {
+    "x": [
+      1056,
+      1392
+    ],
+    "y": [
+      432,
+      600
+    ]
+  },
+  "uv_bounds_default_texture_loader_flipY_true": {
+    "u": [
+      0.515625,
+      0.6796875
+    ],
+    "v": [
+      0.70703125,
+      0.7890625
+    ]
+  },
+  "orientation": "No rotation or mirroring. U follows long slab axis. V increases upward in the source image. Use identical bounds for color, OpenGL normal and roughness.",
+  "uv_remap": {
+    "offset": [
+      0.515625,
+      0.70703125
+    ],
+    "scale": [
+      0.1640625,
+      0.08203125
+    ]
+  },
+  "source_patch_physical_m": [
+    0.328125,
+    0.1640625
+  ],
+  "intended_slab_m": [
+    1.2,
+    0.6
+  ],
+  "scale_enlargement": 3.657142857142857,
+  "selection": "Conservative inset inside one pale warm-gray tile, avoiding its baked joints. Full original diffuse visually inspected; image files remain unedited."
+}

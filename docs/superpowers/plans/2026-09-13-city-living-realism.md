@@ -1,0 +1,10 @@
+# XXXIV Implementation Plan
+Goal: Remove obvious cone-person and opaque-leaf-card model cues across the existing interactive city.
+Architecture: independent CityResidents replacement component; CityArchitecture crown branch geometry consumes root-provided alpha texture; root owns CityRealism/material/integration and street contact detail. Path preparation investigation owns only path modules and tests.
+Tech: TypeScript, Three.js, Vitest, Vite, built-in image_gen, Playwright.
+- [x] Residents worker: CityResidents.ts/test.ts consumes existing resident body/head instance transforms and produces owned instanced natural robe/body/head/hat/limb meshes. Exact anchors and safe extents, old source retained for mode switching, no new collisions. Test bounded geometry, pairs and ownership; report measured vertices.
+- [x] Crown worker: CityArchitecture crown/tree functions + focused test only; irregular dense crown using real alpha leaves, branch connectivity, soft outward normals and stable scale variation, within existing full-city delta budget. Test finite bounded geometry and deterministic output.
+- [x] Path worker: inspect and reproduce XXXIII 45s preparation failure. Instrument preparation phase timings if needed; optimize proven bottleneck without dropping visible city, increasing guards or changing correct material support. Test scene/resource preservation and report browser evidence.
+- [x] Root: generate alpha foliage texture with built-in tool, preserve source and provenance; wire loading/materials and resident replacement. Add low walkable street-contact detail using shared existing textures and geometry, constrained to safe building skirts/courts. Preserve dedicated precincts and layouts.
+- [x] Build/test integration; 11-camera and close comparison, verify actual texture alpha, appearance at both near and overview, modes/walk/save/path and timing. Fix observed regressions.
+- [x] Independent XXXIV snapshot (APFS clone core; hash src/dist/public), report/gallery/prompts; keep originals and historical snapshots unchanged; return preview link and actual limits to user/source task.

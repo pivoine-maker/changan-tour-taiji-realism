@@ -1,0 +1,8 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "date": "2026-09-09",
+  "asset": "weathered-vermilion-v3.png",
+  "source": "local-generated-image (original private path omitted)",
+  "prompt": "Use case: historical-scene. Asset type: square seamless BASE COLOR texture for painted timber on a maintained historic Chinese palace. Single continuous surface, straight vertical wood grain. Faded mineral vermilion red ochre paint, warm brick-red and muted terracotta, substantially lighter than dark lacquer, with fine wood pores showing through, subtle rubbed pigment, sparse tiny weather checking, uneven but gentle natural patina. No broad missing paint flakes or damage. Uniform diffuse shadow-free neutral lighting, no shine or directional light, orthographic surface scan. No panels, joints, planks, lettering, hardware, borders or objects. Tileable edge to edge. Photoreal natural material detail at close range, moderate warm saturation, medium luminosity; no dark maroon or black. 1024x1024.",
+  "processing": "Generated PNG copied unchanged. In-engine pigment desaturation and texture-dependent roughness; low amplitude height approximation. Stone wear mask, sky environment and geometry variations are procedural rendering, not AI-generated images. No static scene image or post-process blur used."
+}

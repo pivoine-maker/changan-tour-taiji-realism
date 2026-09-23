@@ -1,0 +1,52 @@
+{
+  "generator": "built-in image_gen tool",
+  "date": "2026-09-13",
+  "notes": "AI generated color images; no measured PBR claim. Bump textures are owned linear clones used as approximate height proxies. Actual dimensions below override requested dimensions. Original outputs preserved.",
+  "assets": [
+    {
+      "name": "roof",
+      "source": "exec-b4e391ca-99b5-4319-90ae-76100e988ebc.png",
+      "file": "public/textures/city-ai-v33/roof.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "13078c03662b533c9f7b9ff9e380a06591ce10b3a5ad4281f05f4f186e29e6b4",
+      "generationPromptSpecification": "Photographic grey fired-clay barrel-and-pan roof tile albedo; orthographic perpendicular roof plane; vertical channels and overlapping courses; subtle fired ceramic variation and powder dust; flat diffuse lighting; edge-to-edge tileable; no sky, ridge, vegetation, text or CGI. Requested 2048 square."
+    },
+    {
+      "name": "plaster",
+      "source": "exec-acd0a65a-4d7c-40da-8878-ac54c9ba04a4.png",
+      "file": "public/textures/city-ai-v33/plaster.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9b1d9d13843fa67801b09e8df0fb5be7085588cc269cf93270a7700d5e7cc2d6",
+      "generationPromptSpecification": "Photographic lime-and-clay plaster wall albedo, warm light grey beige, 3m square; fine grains, trowel strokes, subtle cloudy lime wash, restrained cracks and exposed clay; maintained wall; flat neutral light; tileable edges; no masonry grid or objects. Requested 2048 square."
+    },
+    {
+      "name": "timber",
+      "source": "exec-bac1ad94-8a2e-4c9b-988f-43e8628f8256.png",
+      "file": "public/textures/city-ai-v33/timber.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "a8afde90c728e41cc1d131886bd55a52534b2de13d046819742b66baa1a722db",
+      "generationPromptSpecification": "Photographic old dark brown hand-planed timber albedo; continuous vertical fine grain, small knots/checks and matte oil patina; no plank seams, paint or rot; flat light and tileable edges. Requested 2048 square."
+    },
+    {
+      "name": "earth",
+      "source": "exec-de77d2f9-035d-4160-bbfd-c1bf961c975e.png",
+      "file": "public/textures/city-ai-v33/earth.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "6ddf90d171691c771d28493f9cf818996b2ed4e11b86807bddf995b8549454b3",
+      "generationPromptSpecification": "Photographic dry compacted sandy street earth albedo, 4m square; grey beige tan fines, tiny pebbles, faint scuffs; flat diffuse light, tileable edges; no plants, large rocks or drought cracks. Requested 2048 square."
+    },
+    {
+      "name": "window",
+      "source": "exec-3a1453d5-8a01-4502-a7f4-7ebcbec7aa05.png",
+      "file": "public/textures/city-ai-v33/window.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "456f51180bf1f46f59cfb363ca9394db42557fcec7eb5dd4fba311916a742d32",
+      "generationPromptSpecification": "Photographic front-on aged dark wood lattice window, edge to edge, narrow frame, orthogonal slim mullions, dark unlit room behind, diffuse light and modest recess shadow; no glass glare, ornament, people or text. Requested 1536 square."
+    }
+  ]
+}

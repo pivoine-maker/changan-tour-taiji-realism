@@ -1,0 +1,24 @@
+{
+  "generator": "Built-in image_gen.imagegen; no external API key",
+  "generatedOn": "2026-09-09 Asia/Shanghai",
+  "assets": [
+    {
+      "filename": "limestone.png",
+      "prompt": "Use case: historical-scene. Asset type: seamless physically based 3D material BASE COLOR texture, one square image. Primary request: weathered warm pale gray limestone paving for a Tang dynasty imperial palace courtyard, precisely orthographic straight down surface scan, regular staggered rectangular large slabs, fine pores, subtle mineral speckling and gentle wear, narrow mortar joints. Even neutral diffuse illumination across entire frame; no baked sunlight, no cast shadows, no ambient occlusion, no perspective, no buildings, no objects, no text or border. Edge-to-edge seamless tileable texture, consistent scale, natural photorealistic material detail, restrained contrast, beige-gray not yellow. 1024x1024.",
+      "original": "local-generated-image (original private path omitted)",
+      "processing": "Copied original PNG unchanged. Three.js sRGB base color, mirrored repeat, local face UV in world units; scalar roughness and existing geometric normals. No generated normal or roughness maps claimed."
+    },
+    {
+      "filename": "clay-roof.png",
+      "prompt": "Use case: historical-scene. Asset type: seamless 3D PBR BASE COLOR texture square. Single edge-to-edge material surface scan of traditional charcoal gray fired clay roof tiles, Tang Chinese imperial architecture. Orthographic surface-normal view with absolutely no perspective. Regular parallel vertical channels of overlapping small rectangular clay tile sections with restrained cylinder cap seams. Approximately 12 columns and 10 rows filling frame. Medium-dark neutral gray natural clay, fine subtle mottling, tiny worn edges, clean maintained ancient palace not ruin. Uniform flat diffuse neutral illumination, no directional light, no cast shadow, no ambient occlusion, no shiny highlights. The channels run exactly vertically. Seamless repetition left/right and top/bottom. No building silhouette, no roof outline, no eaves, no text, no border. Photorealistic scanned albedo quality. 1024x1024.",
+      "original": "local-generated-image (original private path omitted)",
+      "processing": "Copied original PNG unchanged. Three.js sRGB base color, mirrored repeat, local face UV in world units; scalar roughness and existing geometric normals. No generated normal or roughness maps claimed."
+    },
+    {
+      "filename": "cinnabar-wood.png",
+      "prompt": "Use case: historical-scene. Asset type: single seamless square photorealistic 3D base-color material texture. Close surface-normal orthographic scan of traditional deep muted cinnabar red painted timber used on Tang imperial palace doors and columns. Continuous wood surface with subtle straight VERTICAL grain visible through the red iron oxide finish, restrained wear, very fine cracks and slight pigment variation. Elegant maintained historic timber, not flaking ruin. Edge-to-edge material only, no planks joints, no panels, no hardware, no objects, no borders, no lettering. Flat neutral shadow-free diffuse illumination, no specular shine or baked light gradients. Seamless tileable in both directions, uniform color and grain density. Earthy vermilion dark red-brown, not orange, no bright saturation. 1024x1024.",
+      "original": "local-generated-image (original private path omitted)",
+      "processing": "Copied original PNG unchanged. Three.js sRGB base color, mirrored repeat, local face UV in world units; scalar roughness and existing geometric normals. No generated normal or roughness maps claimed."
+    }
+  ]
+}

@@ -76,20 +76,23 @@ npm run preview   # 预览 dist 构建结果
 src/             城市数据、场景几何、导航、发现、任务与 UI
 public/          应用直接加载的模型、材质、HDR 与素材溯源
 asset-sources/   素材参考、中间模型与来源记录
-docs/            场景截图、设计说明与历史实现计划
+docs/            场景截图、设计说明、历史实现计划与 Actions 模板
 scripts/         路径追踪兼容补丁与离线树叶提取工具
-.github/         CI、手动 Pages 部署与 tag 发布工作流
 ```
 
 `CHANGAN-CITY-V*.md`、`TAIJI-PILOT*.md` 和 `docs/superpowers/` 是历史迭代记录；其中的本地预览端口、快照位置与旧测试结果不代表当前在线服务。发布副本移除了个人绝对路径。
 
 离线树叶提取脚本需要 Python、NumPy、SciPy，以及来源记录所列的原始 `tree_small_02.bin`（该约 95 MB 的源文件不随仓库提供）。应用运行使用已包含的 GLB 与树叶布局 JSON，无需执行提取脚本。
 
-## 自动化
+## 自动化模板
 
-- **CI**：推送 `main` 或创建 PR 后运行测试与构建。
-- **Pages**：保留手动 `workflow_dispatch` 工作流；本次只发布源码仓库。要启用站点，可在仓库 Pages 设置中选择 GitHub Actions，再运行 Deploy Pages。
-- **Release**：推送 `v*` tag 时测试、构建，并上传静态站点压缩包。
+三个完整的 GitHub Actions 配置保留在 [`docs/github-actions/`](docs/github-actions/)：
+
+- **ci.yml**：推送 `main` 或创建 PR 后运行测试与构建。
+- **deploy-pages.yml**：手动 `workflow_dispatch` 部署静态站点。
+- **release.yml**：推送 `v*` tag 时测试、构建，并上传静态站点压缩包。
+
+本次发布凭证没有写入 Actions 工作流的权限，因此配置以模板形式保留，**自动 CI、Pages 和 Release 尚未启用**。使用具备工作流写入权限的账号或凭证，将这些文件放入 `.github/workflows/` 后即可启用；Pages 还需在仓库设置中选择 GitHub Actions。
 
 构建基础路径为 `/changan-tour-taiji-realism/`；部署到其他目录时需同步修改 `vite.config.ts`。
 

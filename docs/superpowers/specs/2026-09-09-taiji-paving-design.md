@@ -1,0 +1,3 @@
+# X physical paving scale
+
+User authorizes continuing concrete asset work. IX preserved. Existing courtyard slabs3x1.5m read as oversized regular panels against humans. Replace with1.2x.6m coursed stones within precisely the same front and Liangyi rectangles, same elevation and navigability. Keep joints narrow and muted, no new light/filters/camera changes. Use authored20triangle beveled slab instead of300triangle rounded box to reduce total geometry even with more stones. Compare same fixed/timber views and reject excessive grid contrast. Finite attribute/bounds tests and existing original-scene reversible test; browser walking and frame sample. Historical paving dimensions are art direction, not documented excavation claim.

@@ -1,0 +1,8 @@
+{
+  "generator": "built-in image_gen",
+  "source": "local-generated-image (original private path omitted)",
+  "asset": "public/textures/city-ai-v35/rammed-earth.png",
+  "sha256": "f5291b3b4dcd2c9f02955a35b7b538fb3c47bbb8ba8c20080ebe1fc508919cc0",
+  "promptSummary": "Orthographic compacted rammed-earth wall albedo, neutral ochre loess with horizontal tamping strata, gravel grains and subtle pits; diffuse light, no building, ground, objects or text; approximately3m square tileable surface.",
+  "usage": "Full city exterior and ward walls; generated albedo, not measured PBR."
+}

@@ -1,0 +1,3 @@
+# IX canopy scale and structure
+
+Continue user-authorized autonomous work on existing 14 tree positions. VIII is immutable. No lighting/exposure changes, no city expansion. Existing diamond leaf geometry yields25–46cm leaves; replace with folded/midrib geometry of9–16cm, distribute higher count in thinner, uneven branch-end clusters with deliberate gaps. Keep scanned woody tree asset, avoid completely spherical leafy volumes. Add a tree inspection camera preset to compare before/after at identical settings. Test finite indexed attributes and preserved tree positions/scene toggle; measure actual browser frame cost. Revert density increases if response becomes unusable. Photo goal remains open, never assert exact botanical or historical identity.

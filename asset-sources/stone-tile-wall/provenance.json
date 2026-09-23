@@ -1,0 +1,40 @@
+{
+  "asset": "Stone Tile Wall",
+  "author": "Charlotte Baglioni",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "source_url": "https://polyhaven.com/a/stone_tile_wall",
+  "info_api": "https://api.polyhaven.com/info/stone_tile_wall",
+  "files_api": "https://api.polyhaven.com/files/stone_tile_wall",
+  "physical_coverage_m": [
+    2,
+    2
+  ],
+  "creation_method": "Unspecified in official metadata; photography/photogrammetry is not claimed.",
+  "stone_type": "Official category is Mixed-Stone; limestone is not verified.",
+  "download_note": "Two attempts to retrieve the 2K normal timed out; authorized 1K OpenGL normal fallback downloaded instead. Color and roughness remain 2K. All source maps are unedited and share normalized UV registration.",
+  "uv_selection": "uv-patch.json",
+  "files": [
+    {
+      "file": "stone_tile_wall_diff_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_tile_wall/stone_tile_wall_diff_2k.jpg",
+      "bytes": 2609809,
+      "md5_verified_against_official_api": "7c5cce498a17071db4b1219dda2b8d32",
+      "sha256": "755ee69100b468895a3f76b97657735f27424671ffe0a9b47f24fedba4d05cde"
+    },
+    {
+      "file": "stone_tile_wall_rough_2k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/stone_tile_wall/stone_tile_wall_rough_2k.jpg",
+      "bytes": 689797,
+      "md5_verified_against_official_api": "bd82f438756604f3cc395db974ae9865",
+      "sha256": "56a9a23416146edeccd3fb5e1df13ef471a3209a5f7fab2a33cd3e67087244d0"
+    },
+    {
+      "file": "stone_tile_wall_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/stone_tile_wall/stone_tile_wall_nor_gl_1k.jpg",
+      "bytes": 681190,
+      "md5_verified_against_official_api": "45e971f7f7de63f0d5bf50542a32b1a4",
+      "sha256": "a8c93f867e4b8428d7543c4c1146667619311983c60dd9fe524e53c1a365bc49"
+    }
+  ]
+}

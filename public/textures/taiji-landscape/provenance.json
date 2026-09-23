@@ -1,0 +1,29 @@
+{
+  "asset": "Grass Ground",
+  "author": "Charlotte Baglioni",
+  "license": "CC0",
+  "source": "https://polyhaven.com/a/grass_ground",
+  "licenseUrl": "https://polyhaven.com/license",
+  "sourceSizeMeters": [
+    2.51,
+    2.51
+  ],
+  "creationMethod": "unspecified by source",
+  "files": {
+    "grass_ground_diff_1k.jpg": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_diff_1k.jpg",
+      "bytes": 876584,
+      "sha256": "a79cc5ed65af0f80261b39a383b64a8c5272c5144d724deb43dbc29f0e4cd19b"
+    },
+    "grass_ground_nor_gl_1k.jpg": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_nor_gl_1k.jpg",
+      "bytes": 1310516,
+      "sha256": "7000e2ccd479bb7b66dcdf4faef7b47554324566886314ca620cbf03e274e826"
+    },
+    "grass_ground_rough_1k.jpg": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/grass_ground/grass_ground_rough_1k.jpg",
+      "bytes": 328190,
+      "sha256": "111341f948b7e073edf7ac6add8777e1bf10df8959400df3863243e89bbc8c08"
+    }
+  }
+}

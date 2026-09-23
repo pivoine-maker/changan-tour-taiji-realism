@@ -1,0 +1,14 @@
+# City Panorama XXXII Implementation Plan
+
+> Use subagent-driven-development/dispatching-parallel-agents with explicit ownership. User forbids commits and authorizes autonomous choices.
+
+**Goal:** Give ordinary city districts materially different true3D courtyard/roof/canopy compositions at normal panorama distances, preserving interaction.
+**Architecture:** Shared ward composition data drives renderable buildings, court surfaces and collision. Instanced roof/facade families consume that data. Root integrates environment and validates the complete city. Independent path-resource investigation stays separate from geometry.
+**Tech Stack:** TypeScript, Three.js, Vitest, Vite, Playwright CLI.
+
+- [x] Baseline: hash src/dist/public against XXXI; serve immutable XXXI dist on5192; capture 11 cameras and90frame median/P95; keep old snapshots untouched.
+- [x] Layout worker: new data/wardComposition.ts + tests; update changanCity.ts and data/layout tests. Ward compositions expose optional `character` and `courts` where a court has bounds, kind, x,z. Buildings stay inside quadrant envelopes with 6m central cross lane and safe eaves. Implement4 stable regional families; ensure narrow plots remain real houses. Run all navigation and data bounds tests. Do not touch renderer.
+- [x] Architecture worker: CityArchitecture.ts/tests and OrdinaryWardAssets.ts only. Consume existing building shapes/tones with lengths/orientations/height variety. Improve observable roof articulation and timber/porch layers, branch/crown silhouettes with economical shared geometry; avoid clutter collisions. Preserve source IDs and gate wing openings. Run architecture/instance tests and report expanded vertices. Do not alter data or root integration.
+- [x] Path-resource worker: inspect/reproduce the existing bindTexture warning using source inspection and a separate browser session if needed. Own TaijiPathTracing/PathTraceEnvironment/PathTracerDisposal and focused tests only. Do not alter geometry, budgets, root scene or material library. Diagnose texture target aliasing, test resource isolation, prove repeated activation works; report evidence.
+- [x] Root: create instanced CityCourtyardEnvironment.ts + tests using court data; paving, earthen edge/garden plots and boundary accents must stay in courts and off buildings/lanes. Integrate through CityRealism with reversible ownership. Gate/axis environment and wall material scale only where they aid district transitions. Audit warnings/agent work.
+- [x] Review: fresh fulltests andbuild, 11 before/after frames, all interaction/routes/save/mode/rotate/zoom checks, realtime timing and Taiji+ward path sampling within unchanged guards. Fix visible problems; retain only real panorama gains. Save independent XXXII snapshot with src/dist/public SHA256 and originals verification, gallery/report, TAIJI-LATEST, preview link; report source task.

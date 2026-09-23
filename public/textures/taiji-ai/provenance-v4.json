@@ -1,0 +1,16 @@
+{
+  "version": 4,
+  "assets": [
+    {
+      "file": "red-lime-plaster-v4.png",
+      "source": "local-generated-image (original private path omitted)",
+      "prompt": "Use case: historical-scene. Asset type: seamless square PBR base-color texture for an old maintained Chinese imperial courtyard wall. Single continuous red-ochre lime plaster surface, muted warm dusty brick red, fine gritty lime aggregate, soft irregular mineral variation, restrained sun fading and tiny wear flecks. Photorealistic surface scan, orthographic, flat neutral diffuse illumination without shadows or shine. Not wood, no grain, no masonry joints, no cracks, no wall silhouette, no objects, no border or text. Medium warm muted color, not dark maroon and not bright vermilion. Fine plaster texture with broad subtle natural mottling, seamless edge to edge. 1024x1024."
+    },
+    {
+      "file": "compacted-earth-v4.png",
+      "source": "local-generated-image (original private path omitted)",
+      "prompt": "Use case: historical-scene. Asset type: square seamless base-color material texture for compacted earth paths in an ancient Chinese palace precinct. Orthographic close surface scan of firm warm gray-beige clay soil with very fine gravel grains, muted ochre mineral flecks, subtle uneven wear and sparse tiny embedded stones. Maintained dry footpath, naturally compacted, NOT sand dunes, no deep cracks, no mud, no grass, no paving tiles, no tire tracks, no wood grain, no footprints, no objects or text. Flat neutral diffuse illumination without cast shadows, gradients or specular highlights. Seamless in both axes, restrained natural low contrast, photorealistic scan detail, gray beige not saturated yellow. 1024x1024."
+    }
+  ],
+  "note": "Generated with built-in image_gen. Copied PNGs unchanged; used as repeating surface materials on real interactive 3D meshes, not a scene background."
+}

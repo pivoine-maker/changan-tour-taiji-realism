@@ -1,0 +1,30 @@
+{
+  "name": "changan-tour-taiji-realism",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "preview": "vite preview --host 127.0.0.1",
+    "postinstall": "node scripts/patch-pathtracer.mjs"
+  },
+  "dependencies": {
+    "three": "^0.179.1",
+    "three-gpu-pathtracer": "0.0.23",
+    "three-mesh-bvh": "0.8.3"
+  },
+  "devDependencies": {
+    "@types/three": "^0.185.3",
+    "jsdom": "^26.1.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.0.6",
+    "vitest": "^3.2.4"
+  },
+  "description": "长安游坊录：太极宫与全城写实探索原型（v35）",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pivoine-maker/changan-tour-taiji-realism.git"
+  }
+}

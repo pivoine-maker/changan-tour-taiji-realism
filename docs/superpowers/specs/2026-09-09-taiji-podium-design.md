@@ -1,0 +1,3 @@
+# XI podium moulding
+
+Continue explicitly authorized architectural craft, X preserved. Replace four main podium boxes with a closed, profiled stone mass preserving max43.8x21.8m footprint and y2.07m deck. Add modest stone stair cheeks within existing13.8m stair width, not widening entry or moving layout. Existing columns and route remain. No lighting/exposure/camera change. Keep <=400triangles for podium so detail comes from meaningful silhouette and profile. Compare identical detail/timber angles and test finite geometry/bounds plus original reversible scene. Not a claim of exact historic Taiji podium section.

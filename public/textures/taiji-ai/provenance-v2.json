@@ -1,0 +1,18 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "date": "2026-09-09",
+  "assets": [
+    {
+      "filename": "clay-surface-v2.png",
+      "prompt": "Use case: historical-scene. Asset: square seamless PBR base-color texture of a SINGLE CONTINUOUS charcoal-gray unglazed fired-clay surface for physically modeled ancient Chinese roof tiles. Surface scan, strictly orthographic, flat neutral diffuse illumination. Fine ceramic pores, very subtle cool gray mineral mottling and age wear, maintained palace material. No tile shapes, no seams, no joints, no grout, no pattern, no grooves; the geometry will provide the tile shape. No directional shading, no cast shadows, no highlights, no text, no border. Edge-to-edge uniform natural dark gray clay, medium-low contrast, seamless in both axes. 1024x1024.",
+      "source": "local-generated-image (original private path omitted)"
+    },
+    {
+      "filename": "limestone-surface-v2.png",
+      "prompt": "Use case: historical-scene. Asset: seamless 3D material BASE COLOR texture, single continuous finely worked pale warm-gray limestone surface for Tang palace stone plinth and paving. Flat orthographic material scan, natural fine pores, subtle cloudy mineral traces and tiny light worn speckles. NO slab boundaries, NO joints, NO grout, NO grid, NO cracks, NO stains, NO object silhouettes. Light neutral gray with restrained warm beige undertone. Uniform diffuse illumination, zero cast shadows, zero gradients or shiny highlights. Photorealistic stone scan texture, edge-to-edge seamlessly tileable. This texture is applied to individual 3D stone blocks which already have joints. 1024x1024.",
+      "source": "local-generated-image (original private path omitted)"
+    }
+  ],
+  "reused": "cinnabar-wood.png from v1; original prompt and provenance in provenance.json",
+  "processing": "Original generated PNGs copied unchanged. sRGB base-color sampling, mirrored repeat, physical geometry for tiles and slab joints. Runtime low-amplitude bump uses a linear clone of each image as a single-channel height approximation; not measured or separately AI-generated normal maps. Foliage and ornaments are code geometry, not AI images."
+}

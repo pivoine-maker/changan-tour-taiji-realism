@@ -1,0 +1,30 @@
+import * as THREE from 'three';
+import { applyCityRealism } from './CityRealism';
+import { createHistoricalMaterialLibrary, createTangBuilding } from './HistoricalAssets';
+import { createFullCitySet } from './FullCityAssets';
+import { changanCity } from '../data/changanCity';
+import { westMarketWorld } from '../data/world';
+import { compactInstancesExcluding, NORTH_GATE_SOURCE_ID } from './TaijiInstanceFilter';
+
+it('keeps classic batches out of palace compaction and restores borrowed materials on toggles', () => {
+  const root = new THREE.Group(), base = createHistoricalMaterialLibrary();
+  const classic = createFullCitySet(base, changanCity); root.add(classic);
+  const house = createTangBuilding(westMarketWorld.buildings[0], base, 0); root.add(house);
+  const wall = new THREE.Mesh(new THREE.BoxGeometry(), base.earth); root.add(wall);
+  const borrowed = {stone:new THREE.Texture(),roof:new THREE.Texture(),wood:new THREE.Texture(),wall:new THREE.Texture(),earth:new THREE.Texture()};
+  const dispose = vi.spyOn(borrowed.wood, 'dispose');
+  const city = applyCityRealism(root, base, borrowed, new THREE.Texture());
+  expect(classic.parent).toBeNull(); expect(house.visible).toBe(false); expect(wall.material).not.toBe(base.earth);
+  const realistic=root.getObjectByName('realistic-changan-city')!;
+  expect(realistic.getObjectByName('ordinary-ward-resident-bodies')!.visible).toBe(false);
+  expect(realistic.getObjectByName('city-residents')!.userData.residentCount).toBe(209);
+  expect(realistic.getObjectByName('city-foundation-soil-transitions')).toBeDefined();
+  expect(realistic.getObjectByName('full-city-ground')!.visible).toBe(false);
+  const compact = compactInstancesExcluding(root, NORTH_GATE_SOURCE_ID); root.add(compact.group);
+  expect(compact.originals.length).toBeGreaterThan(0);
+  expect(compact.originals.every(item => !classic.getObjectById(item.mesh.id))).toBe(true);
+  city.finishInstallation(); expect(classic.parent).toBe(root); expect(classic.visible).toBe(false);
+  city.setEnabled(false); expect(classic.visible).toBe(true); expect(house.visible).toBe(true); expect(wall.material).toBe(base.earth);
+  city.setEnabled(true); expect(classic.visible).toBe(false); expect(house.visible).toBe(false);
+  compact.restore(); compact.group.removeFromParent(); city.dispose(); expect(dispose).not.toHaveBeenCalled(); expect(wall.material).toBe(base.earth);
+});
